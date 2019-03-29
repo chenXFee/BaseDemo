@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">module_resource</string>
+
+
+    <string name="user_account">请输入用户名</string>
+    <string name="user_password">请输入密码</string>
+    <string name="btn_login">签到</string>
+
+</resources>

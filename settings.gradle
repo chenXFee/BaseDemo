@@ -1,0 +1,1 @@
+include ':app', ':moudule_common', ':module_resource', ':module_route'

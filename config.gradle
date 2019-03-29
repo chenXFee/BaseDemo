@@ -1,0 +1,66 @@
+def retorfit2 = "2.2.0"
+def gson = "2.2.0"
+def rxjava_adapter = "2.2.0"
+def rxandroid = "2.0.1"
+def rxjava = "2.0.7"
+def eventbus = "3.1.1"
+def autodispose = "0.7.0"
+
+def rxbindingVersion = "3.0.0-alpha2"
+def butterknifeVersion = "8.8.1"
+def arouterapiVersion = "1.3.1"
+def aroutercompilerVersion = "1.1.4"
+def rxerrorhandler = "2.1.1"
+def rxlifecycle2Version = "2.1.0"
+def rxpermissions = "0.9.5@aar"
+
+
+
+
+
+ext {
+    android = [
+            compileSdkVersion      : 28,
+            applicationId          : "com.cxf.demo",
+            minSdkVersion          : 15,
+            targetSdkVersion       : 25,
+            versionCode            : 1,
+            versionName            : "1.0"
+    ]
+    //因为support库都是同一个版本，单独拎出来，方便修改
+    dependVersion = [
+            support: "25.3.0"
+    ]
+
+    dependencies = [
+            // android-support
+            "support-v4"            : "com.android.support:support-v4:${dependVersion.support}",
+            "appcompat-v7"          : "com.android.support:appcompat-v7:${dependVersion.support}",
+            "design"                : "com.android.support:design:${dependVersion.support}",
+            "recyclerview"          : "com.android.support:recyclerview-v7:${dependVersion.support}",
+            "cardview"              : "com.android.support:cardview-v7:${dependVersion.support}",
+
+            "retorfit2"             : "com.squareup.retrofit2:retrofit:${retorfit2}",
+            "gson"                  : "com.squareup.retrofit2:converter-gson:${gson}",
+            //Rxjava and Retrofit（Retrofit+Rx需要添加的依赖）
+            "rxjava_adapter"        : "com.squareup.retrofit2:adapter-rxjava2:${rxjava_adapter}",
+            "rxandroid"             : "io.reactivex.rxjava2:rxandroid:${rxandroid}",
+            "rxjava"                : "io.reactivex.rxjava2:rxjava:${rxjava}",
+            "eventbus"              : "org.greenrobot:eventbus:${eventbus}",
+
+            "rxbinding"                : "com.jakewharton.rxbinding3:rxbinding:${rxbindingVersion}",
+            "rxerrorhandler"           : "me.jessyan:rxerrorhandler:${rxerrorhandler}",
+
+            "butterknife"              : "com.jakewharton:butterknife:${butterknifeVersion}",
+            "butterknife_compiler"     : "com.jakewharton:butterknife-compiler:${butterknifeVersion}",
+            "arouterapi"               : "com.alibaba:arouter-api:${arouterapiVersion}",
+            "aroutercompiler"          : "com.alibaba:arouter-compiler:${aroutercompilerVersion}"
+
+
+
+
+
+
+
+    ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_size_56"
+        android:background="@android:color/white">
+
+
+        <TextView
+            android:id="@+id/view_head_left"
+            android:layout_width="@dimen/widget_size_46"
+            android:layout_height="@dimen/widget_size_60"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/widget_size_10"
+            android:drawableLeft="@mipmap/top_fanhui"
+            android:paddingRight="@dimen/widget_size_10" />
+
+
+        <TextView
+            android:id="@+id/view_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="标题"
+            android:textColor="@color/color_484D5E"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/font_size_18"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+</merge>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_0A9159">#0A9159</color>
+    <color name="color_484D5E">#484D5E</color>
+    <color name="color_D4D4D4">#D4D4D4</color>
+    <color name="color_A3A3A3">#A3A3A3</color>
+    <color name="system_bgcolor">#EDEEF2</color>
+    <color name="color_black">@android:color/black</color>
+    <color name="color_e3e3e3">#E3E3E3</color>
+    <color name="color_c3c3c3">#C3C3C3</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_edeef2">#edeef2</color>
+    <color name="color_5A80DC">#5A80DC</color>
+    <color name="xian_color">@color/color_A3A3A3</color>
+    <color name="color_D83E35">#D83E35</color>
+</resources>
